@@ -1,0 +1,45 @@
+#div {
+  background-color: #444;
+  margin: 0;
+  color: wheat;
+  padding: 5px;
+  width: 10px;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+#btn {
+  border: none;
+  background-color: #ccc;
+  width: 50%;
+  height: 30px;
+  margin-top: 20px;
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #444;
+  color: white;
+}
+
+#input {
+  outline: solid gray 1px;
+  background-color: #333;
+  border-style: hidden;
+  color: white;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
